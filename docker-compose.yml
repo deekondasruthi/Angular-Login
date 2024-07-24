@@ -7,6 +7,6 @@ services:
     ports:
       - "8002:80"
     volumes:
-      - /root/github-code/Front-End-code/Angular-Login:/usr/share/nginx/html 
+      - /root/github-code/Front-End-code/Angular-Login/src:/usr/share/nginx/html 
     restart: always
 
