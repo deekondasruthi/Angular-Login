@@ -3,7 +3,7 @@ version: '3.8'
 services:
   nginx:
     image: nginx:latest
-    container_name: FE-Container3
+    container_name: FE-Container
     ports:
       - "8000:80"
     volumes:
