@@ -7,6 +7,6 @@ services:
     ports:
       - "8004:80"
     volumes:
-      - /var/lib/jenkins/workspace/FE/Angular-Login:/usr/share/nginx/html 
+      - /home/GitHubCode/FrontEndCode/Angular-Login/src:/usr/share/nginx/html 
     restart: always
 
